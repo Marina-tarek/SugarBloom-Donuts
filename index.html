@@ -42,6 +42,9 @@
                         <a class="nav-link" href="#popular_menu">Popular Menu</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#reviews">All Reviews</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#ContactUs">Contact Us</a>
                     </li>
                 </ul>
@@ -51,11 +54,11 @@
 
     <!-- end navbar -->
     <!-- start home section -->
-    <section id="Home" class="home  py-5  ">
+    <section id="Home" class="home  py-3 py-md-5  ">
         <div class="container">
             <div class="row justify-content-center justify-content-md-between ">
                 <div class="col-10 col-md-6 py-5">
-                    <span>Sweet & Fresh Donuts</span>
+                    <span class="text-pink">Sweet & Fresh Donuts</span>
                     <h1 class="fs-1 fw-bolder  mb-4">SugarBloom Donuts</h1>
                     <p class="text-lg  mb-6 text-secondary-emphasis w-100 "> Discover the joy of freshly baked
                         donuts, glazed to perfection and made
@@ -73,13 +76,13 @@
     </section>
     <!-- end home section -->
     <main>
-        <section id="Flavour" class="flavour">
-            <div class="container py-5">
-                <div class="row text-center py-4">
+        <section id="Flavour" class="flavour py-5">
+            <div class="container ">
+                <div class="row text-center mb-4">
                     <h2>Our Flavour </h2>
                 </div>
                 <div class="row justify-content-evenly row-gap-5  py-3">
-                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3  pt-3 rounded-top-pill ">
+                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3  py-3 rounded-top-pill ">
                         <div class="main_card_image"><img src="images/cotton candy.jpg" alt="cotton candy falvour"
                                 class="w-100 rounded-top-pill"></div>
                         <div class="flavour_item_body py-3 px-2">
@@ -91,7 +94,7 @@
                                 Now</button>
                         </div>
                     </div>
-                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3 pt-3 rounded-top-pill">
+                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3 py-3 rounded-top-pill">
                         <div class="main_card_image"><img src="images/choclate.jpg" alt="choclate falvour"
                                 class="w-100 rounded-top-pill"></div>
                         <div class="flavour_item_body py-3 px-2">
@@ -103,7 +106,7 @@
                                 Now</button>
                         </div>
                     </div>
-                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3 pt-3 rounded-top-pill">
+                    <div class="main_card col-8 col-sm-8 col-md-5 col-lg-3 py-3 rounded-top-pill">
                         <div class="main_card_image"><img src="images/strawbarry.jpg" alt="strawbarry falvour"
                                 class="w-100 rounded-top-pill"></div>
                         <div class="flavour_item_body py-3 px-2">
@@ -118,11 +121,11 @@
                 </div>
             </div>
         </section>
-        <section id="About" class="about_us">
+        <section id="About" class="about_us py-5">
             <div class="container">
-                <div class="row py-5">
-                    <h2 class="text-center mb-3">Why Choose Us?</h2>
-                    <p class="w-75 mx-auto py-4 px-0"> At SugarBloom, we believe in crafting each donut with the finest
+                <div class="row text-center">
+                    <h2 class=" mb-5  mx-auto">Why Choose Us?</h2>
+                    <p class="w-75 mx-auto py-4 px-0 mt-2"> At SugarBloom, we believe in crafting each donut with the finest
                         ingredients and a sprinkle of love. Whether you're craving something
                         sweet for breakfast, a midday treat, or a late-night snack—we've got
                         you covered.</p>
@@ -135,8 +138,11 @@
 
             </div>
         </section>
-        <section id="popular_menu" class="popular_menu">
+        <section id="popular_menu" class="popular_menu py-5">
             <div class="container">
+                <div class="row text-center mb-4">
+                    <h2>Popular Menu</h2>
+                </div>
                 <div class="row justify-content-evenly row-gap-5 gap-sm-4 column-gap-md-1  py-3">
                     <div class="main_card col-8 col-sm-8 col-md-5 col-lg-4 col-xl-3 py-3 rounded-top-pill ">
                         <div class="main_card_image"><img src="images/cotton candy.jpg" alt="cotton candy falvour image"
@@ -193,7 +199,7 @@
                                 class="btn bg-white text-pink fs-5 px-6 py-3 rounded-2xl shadow-lg  transition w-100 rounded-pill">
                                 Add to cart</button>
                         </div>
-                     </div>
+                    </div>
                     <div class="main_card col-8 col-sm-8 col-md-5 col-lg-4 col-xl-3 py-3 rounded-top-pill ">
                         <div class="main_card_image"><img src="images/oreo donut.jpg" alt="oreo donut falvour image"
                                 class="w-100 rounded-top-pill"></div>
@@ -214,7 +220,7 @@
                 </div>
             </div>
         </section>
-        <section class="review_about_our_donats py-5">
+        <section id="reviews" class="review_about_our_donats py-5">
             <div class="container">
                 <div class="row py-3 text-center mb-3">
                     <h2>Reviews About Products</h2>
@@ -295,11 +301,86 @@
                 </button>
             </div>
         </section>
+
+        <!-- start contact_us section -->
+        <section id="ContactUs" class="pt-5">
+            <div class="container-fluid">
+                <div class="row text-center mb-4">
+                    <h2>Contact Us</h2>
+                </div>
+                <div class="row row-gap-4 justify-content-center justify-content-md-between align-items-center">
+                    <div class="col-12 col-lg-6  p-0">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3418.6012720659933!2d30.430615774485858!3d31.037356870848747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f66d003c5a4667%3A0x6992cc1b9e83e10e!2z2YXYsdmD2LIg2KXYqNiv2KfYuSDZhdi12LEg2KfZhNix2YLZhdmK2Yc!5e0!3m2!1sen!2seg!4v1755365142596!5m2!1sen!2seg"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" class="w-100"></iframe>
+                    </div>
+                    <div class="col-10 col-lg-5 me-4">
+                        <div class="mb-4">
+                            <label for="exampleFormControlInput1" class="form-label fs-5">Your E-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-4">
+                            <label for="exampleFormControlTextarea1" class="form-label fs-5">Leave your message
+                                here</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="message here"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact_us section -->
     </main>
     <!-- star footer -->
-    <footer>
+    <footer class="main_bg ">
+        <div class="container py-5">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-md-3">
+                    <ul class="list-unstyled">
+                        <li class="py-2"><a href="#Home" class="text-decoration-none text-black "><i
+                                    class="fa-solid fa-chevron-right me-2"></i> Home</a></li>
+                        <li class="py-2"><a href="#About" class="text-decoration-none text-black "><i
+                                    class="fa-solid fa-chevron-right me-2"></i> About</a></li>
+                        <li class="py-2">
+                            <a class="text-decoration-none text-black " href="#Flavour"><i
+                                    class="fa-solid fa-chevron-right me-2"></i>Flavour</a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-decoration-none text-black " href="#popular_menu"><i
+                                    class="fa-solid fa-chevron-right me-2"></i>Popular Menu</a>
+                        </li>
+                        <li class="py-2">
+                            <a class="text-decoration-none text-black " href="#reviews"><i
+                                    class="fa-solid fa-chevron-right me-2"></i>All Reviews</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-5 py-4">
+                    <h5>Subscribe our new Sletter</h5>
+                    <div class="position-relative">
+                        <input type="text" placeholder="please enter your email here" class="form-control py-2">
+                        <button class="btn btn-pink position-absolute end-0 top-0 text-white py-2">Subscribe</button>
+                    </div>
 
+                </div>
+                <div class="col-12 col-md-4">
+<ul class="list-unstyled">
+<li class="py-2"><i class="fa-solid fa-location-dot"></i> 2CQM+35W, Abadeyat Damanhour, Damanhour, Beheira Governorate 5842001</li>
+<li class="py-2"><a href="https://www.linkedin.com/in/marina-tarek-83a5a7320/"
+                        class="text-black text-decoration-none"><i class="fa-brands fa-linkedin fs-6 me-2"></i>Linkedin Account</a></li>
+</ul>
+                </div>
+            </div>
+            <div class="row text-center py-">
+                <p>@2025 Marina Tarek  </p>
+            </div>
+        </div>
+        <div class="footer_image">
+<img src="images/main.png" alt="" class="w-100">
+        </div>
     </footer>
+
     <!-- end footer  -->
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
