@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #EC4899;
+    --second-color:#F472B6;
+    --brown-color:#7C3E1D;
+}
+/* .main-bg-color{
+    background-color: var(--main-color);
+} */
+/* navbar */
+.navbar-brand{
+    
+    width: 100px;
+    height: fit-content;
+}
+.navbar-brand img{
+    width: 100%;
+        height: 75px;
+}
+.btn-pink{
+    background-color:#E920CE;
+}
+.btn-pink:hover{
+    /*  */
+    background-color: #BE185D;
+}
+.text-pink{
+    color: var(--main-color);
+}
+/* home section */
+/* header{
+        background-image: url(../images/3.avif);
+    background-position: bottom 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
+.home h1{
+    color: var(--brown-color);
+}
+/* .home .container{
+
+} */
+/* .home .row{
+
+} */
+
+ /* flavour section */
+ .flavour h2{
+    color: var(--brown-color);
+ }
+ .flavour .flavour_item{
+    background-color:#FAC5F3;
+ }
+  .flavour .flavour_item_image{
+    height: fit-content;
+  }
+  .flavour .flavour_item_image img{
+    height: 300px;
+  }
+ /* .flavour  .card img{
+    height: fit-content;
+ } */
+  /* about section */
+  /* .about_us h2{
+    position: relative;
+  }
+  .about_us h2::after{
+
+content: url(../images/3.jpg);
+
+    position: absolute;
+    display: block;
+    content: url(../images/2.jpg);
+    
+    left: 30%;
+    top: 50px;
+    width: 40%;
+    height: fit-content;
+  }
+  .about_us p{
+    z-index: 999;
+  } */
