@@ -41,10 +41,11 @@
 .main_bg{
   background-color: var(--bg-color);
 }
-h2{
+h2,footer h4{
   color: var(--brown-color);
   text-decoration: underline wavy;
 }
+
 /* .main-bg-color{
     background-color: var(--main-color);
 } */
@@ -104,7 +105,11 @@ transform: translateY(-300%);  }
  .home img:hover{
   transform: scale(1.01);
  }
- 
+.navbar .active{
+ background-color: var(--bg-color);
+ color: #fff;
+ border-radius: 15px;
+ }
  /* flavour section */
  .flavour h2{
     color: var(--brown-color);
@@ -149,6 +154,7 @@ transform: translateX(-40%);
     width: 51%;
   }
 /* footer */
+
 footer ul li{
   transition: all 0.3s ease;
 }
@@ -161,6 +167,24 @@ footer ul li:hover{
 }
 .footer_image img{
   mix-blend-mode: multiply;
+}
+.to_top {
+  background-color: var(--bg-color);
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 35px;
+  bottom: 0;
+  cursor: pointer;
+  display: none;
+
+}
+
+.to_top i {
+  font-size: 20px;
 }
 @media (max-width: 576px) {
   .review_conent{
