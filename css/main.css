@@ -12,12 +12,20 @@
 /* global style */
 .main_card{
     background-color:#FAC5F3;
+    transition: all 0.3s ease;
+ }
+ .main_card:hover{
+  transform: scale(1.01);
+ }
+ .main_card:hover img{
+  transform: scale(0.97);
  }
   .main_card_image{
     height: fit-content;
   }
  .main_card_image img{
     height: 300px;
+    transition: all 0.3s ease-in;
   }
 
   .btn-pink{
@@ -78,23 +86,12 @@ transform: translateY(-300%);  }
 }
 
 /* home section */
-/* header{
-        background-image: url(../images/3.avif);
-    background-position: bottom 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
+
 .home h1{
     color: var(--brown-color);
 }
-/* .home_end_image {
-    height: 150px;
-}
-.home_end_image img{
-    height: 100%;
-} */
+
  .home{
-    /* position: relative; */
     background-image: url(../images/main.png);
     background-position: -20% top;
     background-repeat: no-repeat;
@@ -103,22 +100,11 @@ transform: translateY(-300%);  }
  .home .row{
   padding-top: 90px;
  }
- /* .home::after{
-    content: "";
-    background-image: url(../images/1.PNG);
-    background-repeat:  no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: absolute;
-    display: block;
-    height: 50%;
-    right: 0;
-    left: 0;
-    margin-bottom: 30px;
- } */
-
-
-
+ .home img{transition: all 0.3s ease;}
+ .home img:hover{
+  transform: scale(1.01);
+ }
+ 
  /* flavour section */
  .flavour h2{
     color: var(--brown-color);
@@ -128,25 +114,6 @@ transform: translateY(-300%);  }
     height: fit-content;
  } */
   /* about section */
-  /* .about_us h2{
-    position: relative;
-  }
-  .about_us h2::after{
-
-content: url(../images/3.jpg);
-
-    position: absolute;
-    display: block;
-    content: url(../images/2.jpg);
-    
-    left: 30%;
-    top: 50px;
-    width: 40%;
-    height: fit-content;
-  }
-  .about_us p{
-    z-index: 999;
-  } */
 .about_us h2{
   position: relative;
   width: 300px;
