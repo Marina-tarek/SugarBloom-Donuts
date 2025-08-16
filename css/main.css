@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 :root{
+  --bg-color: #E920CE;
     --main-color: #EC4899;
     --second-color:#F472B6;
     --brown-color:#7C3E1D;
@@ -28,6 +29,9 @@
 }
 .text-pink{
     color:#E920CE;
+}
+h2{
+  color: var(--brown-color);
 }
 /* .main-bg-color{
     background-color: var(--main-color);
@@ -144,4 +148,30 @@ content: url(../images/3.jpg);
 
   .carousel-item img{
     height: 100px;
+    width: 100%;
+    mix-blend-mode: multiply;
+  }
+  .carousel-indicators{
+    bottom: -50%;
+  }
+ .carousel-indicators [data-bs-target]{
+    border-radius: 50%;
+    background-color: var(--bg-color);
+    height: 30px;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon{
+    background-color: var(--bg-color);
+    
+  }
+  .carousel-control-next, .carousel-control-prev{
+    width: 51%;
+  }
+
+@media (max-width: 576px) {
+  .review_conent{
+    width: 75% !important;
+  }
+  .carousel-control-next, .carousel-control-prev {
+    width: 27%;
+}
   }
